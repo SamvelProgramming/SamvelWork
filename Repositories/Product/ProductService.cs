@@ -3,17 +3,17 @@ using AramatBags.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using AramatBags.Data;
 using static System.Net.Mime.MediaTypeNames;
+using Microsoft.EntityFrameworkCore;
 namespace AramatBags.Service
 {
     public class ProductService : IProduct
-
     {
         private readonly ApplicationDBContext _dbcontext;
         public ProductService(ApplicationDBContext dbcontext)
         {
             _dbcontext = dbcontext;
         }
-        public void AddProduct(Product product)
+        public async Task AddProduct(Product product)
         {
             var Addproduct = new Product()
             {
@@ -25,68 +25,36 @@ namespace AramatBags.Service
                 Image = product.Image
 
             };
-            _dbcontext.Products.Add(Addproduct);
-            _dbcontext.SaveChanges();
+            await _dbcontext.Products.AddAsync(Addproduct);
+            await _dbcontext.SaveChangesAsync();
         }
-
-        public void DeleteProduct(int id)
+        public async Task DeleteProduct(int id)
         {
             var p = _dbcontext.Products.Find(id);
             if (p != null)
             {
                 _dbcontext.Products.Remove(p);
-                _dbcontext.SaveChanges();
+                await _dbcontext.SaveChangesAsync();
             }
         }
-
-        public void EditProduct(Product product)
+        public async Task EditProduct(Product product)
         {
-            var p = _dbcontext.Products.Find(product.Id);
-            if (p != null)
+            if (product != null)
             {
-                p.ProductName = product.ProductName;
-                p.Price = product.Price;
-                p.Description = product.Description;
-                p.Image = product.Image;
-                p.ProductCategoryId = product.ProductCategoryId;
-                p.ProductCount = product.ProductCount;
-                _dbcontext.Products.Update(p);
-                _dbcontext.SaveChanges();
-
+                _dbcontext.Products.Update(product);
+                await _dbcontext.SaveChangesAsync();
             }
-
         }
-
-        public List<Product> GetAllProducts()
+        public async Task<List<Product>> GetAllProducts()
         {
-            var product = _dbcontext.Products
-            .Select(c => new Product
-            {
-                Id = c.Id,
-                ProductName = c.ProductName,
-                Price = c.Price,
-                Description = c.Description,
-                Image = c.Image
-
-            })
-            .ToList();
-
+            var product = await _dbcontext.Products.ToListAsync();
+            return product;
+        }
+        public async Task<Product> GetProductById(int id)
+        {;
+            var product = await _dbcontext.Products.FindAsync(id);
             return product;
         }
 
-        public Product GetProductById(int id)
-        {
-            var product = new Product();
-            var newproduct = _dbcontext.Products.Find(id);
-            if (newproduct != null)
-            {
-                product.Id = newproduct.Id;
-                product.ProductName = newproduct.ProductName;
-                product.Price = newproduct.Price;
-                product.Description = newproduct.Description;
-                product.Image = newproduct.Image;
-            }
-            return product;
-        }
     }
 }

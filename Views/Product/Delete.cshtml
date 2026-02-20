@@ -1,0 +1,13 @@
+﻿@model AramatBags.Models.Product
+
+<h2>Delete Product</h2>
+
+<p>@Model.ProductName</p>
+<p>@Model.Description</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Delete</button>
+</form>
+
+<a asp-action="Index">Back</a>

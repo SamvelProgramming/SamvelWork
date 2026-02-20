@@ -1,0 +1,11 @@
+﻿@model AramatBags.Models.Product
+
+<h2>Add Product</h2>
+
+<form asp-action="Add" method="post">
+    <input asp-for="ProductName" />
+    <input asp-for="Description" />
+    <button type="submit">Save</button>
+</form>
+
+<a asp-action="Index">Back</a>

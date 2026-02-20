@@ -1,77 +1,218 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\",
+  "WorkspaceRootPath": "C:\\Users\\gevor\\Desktop\\SamvelWork\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\aramatbags.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:aramatbags.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\repositories\\category\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:repositories\\category\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\repositories\\category\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\repositories\\category\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:repositories\\category\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\repositories\\product\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:repositories\\product\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\repositories\\cart\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:repositories\\cart\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\repositories\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\repositories\\cart\\icart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:repositories\\cart\\icart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\repositories\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:repositories\\product\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\onedrive\\desktop\\aramatbags\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\repositories\\product\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:repositories\\product\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\repositories\\category\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:repositories\\category\\icategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\views\\product\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:views\\product\\getbyid.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gevor\\Desktop\\SamvelWork\\Migrations\\20260130114141_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260130114141_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\aramatbags.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:aramatbags.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|c:\\users\\gevor\\desktop\\samvelwork\\migrations\\20260130114304_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A905F64-B729-321B-C9F4-3AE47E21CDB2}|AramatBags.csproj|solutionrelative:migrations\\20260130114304_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "DockedHeight": 400,
+          "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAwwDYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T11:18:34.125Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T11:34:55.276Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GetById.cshtml",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\GetById.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\GetById.cshtml",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\GetById.cshtml",
+              "RelativeToolTip": "Views\\Product\\GetById.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T11:37:58.957Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -85,105 +226,338 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\OrderItem.cs",
-              "RelativeToolTip": "Models\\OrderItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Cart\\CartService.cs",
+              "RelativeDocumentMoniker": "Repositories\\Cart\\CartService.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Cart\\CartService.cs",
+              "RelativeToolTip": "Repositories\\Cart\\CartService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T12:49:37.169Z",
+              "WhenOpened": "2026-01-29T13:06:36.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "Models\\Order.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Order.cs",
-              "RelativeToolTip": "Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAArAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T12:46:59.461Z"
+              "WhenOpened": "2026-01-24T08:57:01.221Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CartItem.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\CartItem.cs",
-              "RelativeDocumentMoniker": "Models\\CartItem.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\CartItem.cs",
-              "RelativeToolTip": "Models\\CartItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T12:46:06.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ICategory.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Repositories\\Category\\ICategory.cs",
-              "RelativeDocumentMoniker": "Repositories\\Category\\ICategory.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Repositories\\Category\\ICategory.cs",
-              "RelativeToolTip": "Repositories\\Category\\ICategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:25:47.742Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Repositories\\Category\\CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Category\\CategoryService.cs",
               "RelativeDocumentMoniker": "Repositories\\Category\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Repositories\\Category\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Category\\CategoryService.cs",
               "RelativeToolTip": "Repositories\\Category\\CategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:25:27.022Z"
+              "WhenOpened": "2026-01-24T09:25:27.022Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IProduct.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Repositories\\Product\\IProduct.cs",
-              "RelativeDocumentMoniker": "Repositories\\Product\\IProduct.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Repositories\\Product\\IProduct.cs",
-              "RelativeToolTip": "Repositories\\Product\\IProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:20:39.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Repositories\\Product\\ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Product\\ProductService.cs",
               "RelativeDocumentMoniker": "Repositories\\Product\\ProductService.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Repositories\\Product\\ProductService.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Product\\ProductService.cs",
               "RelativeToolTip": "Repositories\\Product\\ProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-24T09:20:29.42Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 5,
+              "Title": "IProduct.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Product\\IProduct.cs",
+              "RelativeDocumentMoniker": "Repositories\\Product\\IProduct.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Product\\IProduct.cs",
+              "RelativeToolTip": "Repositories\\Product\\IProduct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T09:20:39.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ICart.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Cart\\ICart.cs",
+              "RelativeDocumentMoniker": "Repositories\\Cart\\ICart.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Cart\\ICart.cs",
+              "RelativeToolTip": "Repositories\\Cart\\ICart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:03:34.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICategory.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Category\\ICategory.cs",
+              "RelativeDocumentMoniker": "Repositories\\Category\\ICategory.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Repositories\\Category\\ICategory.cs",
+              "RelativeToolTip": "Repositories\\Category\\ICategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T09:25:47.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\CartItem.cs",
+              "RelativeToolTip": "Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T12:46:06.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T09:02:54.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Cart.cs",
+              "RelativeToolTip": "Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T09:06:12.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:29:52.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-12T10:44:01.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-03T13:05:30.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-03T13:02:04.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-03T13:04:54.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T11:23:51.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:30:25.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T11:28:10.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T12:46:59.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T08:54:33.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Payment.cs",
+              "RelativeToolTip": "Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T11:42:53.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20260130114141_Init.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Migrations\\20260130114141_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260130114141_Init.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Migrations\\20260130114141_Init.cs",
+              "RelativeToolTip": "Migrations\\20260130114141_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T11:41:41.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Product\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T11:38:56.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Product\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T11:39:24.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20260130114304_Init.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Migrations\\20260130114304_Init.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260130114304_Init.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Migrations\\20260130114304_Init.cs",
+              "RelativeToolTip": "Migrations\\20260130114304_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T11:43:04.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Add.cshtml",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "Views\\Product\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T11:38:36.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AramatBags.csproj",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\AramatBags.csproj",
+              "RelativeDocumentMoniker": "AramatBags.csproj",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\AramatBags.csproj",
+              "RelativeToolTip": "AramatBags.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-24T12:53:04.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Role.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Role.cs",
               "RelativeDocumentMoniker": "Models\\Role.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Role.cs",
               "RelativeToolTip": "Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -191,24 +565,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Cart.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Cart.cs",
-              "RelativeDocumentMoniker": "Models\\Cart.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Cart.cs",
-              "RelativeToolTip": "Models\\Cart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:06:12.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-24T09:05:05.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-29T13:26:15.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-29T12:52:24.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -216,71 +613,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "Models\\Category.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Category.cs",
-              "RelativeToolTip": "Models\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:05:05.382Z",
-              "EditorCaption": ""
+              "DocumentIndex": 34,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\gevor\\Desktop\\SamvelWork\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\gevor\\Desktop\\SamvelWork\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-29T11:23:56.62Z"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AramatBags",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\AramatBags.csproj",
-              "RelativeDocumentMoniker": "AramatBags.csproj",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\AramatBags.csproj",
-              "RelativeToolTip": "AramatBags.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-24T12:53:04.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Models\\Product.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\Product.cs",
-              "RelativeToolTip": "Models\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T09:02:54.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ApplicationDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Data\\ApplicationDBContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDBContext.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Data\\ApplicationDBContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T08:57:01.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\gevor\\OneDrive\\Desktop\\AramatBags\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-24T08:54:33.834Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             }
           ]
         },
         {
-          "DockedWidth": 723,
+          "DockedHeight": 200,
           "SelectedChildIndex": -1,
           "Children": [
             {

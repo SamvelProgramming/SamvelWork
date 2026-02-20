@@ -1,0 +1,28 @@
+﻿@model IEnumerable<AramatBags.Models.Product>
+
+<h2>Products</h2>
+
+<a asp-action="Add">Add</a>
+
+<table border="1">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Actions</th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.Id</td>
+        <td>@item.ProductName</td>
+        <td>@item.Description</td>
+        <td>
+            <a asp-action="GetById" asp-route-id="@item.Id">View</a>
+            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+        </td>
+    </tr>
+}
+</table>

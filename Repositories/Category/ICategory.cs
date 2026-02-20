@@ -3,10 +3,10 @@ namespace AramatBags.Interfaces
 {
     public interface ICategory
     {
-        void AddCategory(Category category);
-        void DeleteCategory(int id);
-        void EditCategory(Category category);
-        List<Category> GetAllCategories();
-        Category GetCategoryById(int id);
+        Task AddCategory(Category category);
+        Task DeleteCategory(int id);
+        Task EditCategory(Category category);
+        Task<List<Category>> GetAllCategory();
+        Task<Category> GetCategoryById(int id);
     }
 }

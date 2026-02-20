@@ -3,10 +3,10 @@ namespace AramatBags.Interfaces
 {
     public interface IProduct
     {
-        void AddProduct(Product product);
-        void DeleteProduct(int id);
-        void EditProduct(Product product);
-        List<Product> GetAllProducts();
-        Product GetProductById(int id);
+        Task AddProduct(Product product);
+        Task DeleteProduct(int id);
+        Task EditProduct(Product product);
+        Task<List<Product>> GetAllProducts();
+        Task<Product>GetProductById(int id);
     }
 }
