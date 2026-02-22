@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AramatBags")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c603f3ffeaaf5950eef3234c8fe0b428221cb390")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5607362c868fd3709397ee4be0eefcb49a15d2e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AramatBags")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AramatBags")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

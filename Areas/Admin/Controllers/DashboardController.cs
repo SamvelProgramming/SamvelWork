@@ -1,26 +1,37 @@
-﻿using AramatBags.Interfaces;
+﻿using AramatBags.Data;
+using AramatBags.Models;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore.SqlServer.Query.Internal;
-using AramatBags.Repositories;
-
-namespace AramatBags.Controllers
+using Microsoft.EntityFrameworkCore;
+using System.ComponentModel;
+namespace AramatBags.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class DashboardController : Controller
+    //[Authorize(Roles = "Admin")]
+    public class DashBoardController : Controller
     {
-        private readonly IProduct _product;
-        private readonly ICategory _category;
-        private readonly ICart _cart;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ApplicationDBContext _dbcontext;
 
-        public DashboardController(IProduct product)
+        public DashBoardController(SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager, ApplicationDBContext db)
         {
-            _product = product;
+            _signInManager = signInManager;
+            _userManager = userManager;
+            _dbcontext = db;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var products = _product.GetAllProducts();
-            return View(products);
+            return View();
         }
+        public IActionResult Logout()
+        {
+            _signInManager.SignOutAsync();
+            return RedirectToAction("Login", "User", new { area = "" });
+        }
+
     }
 }

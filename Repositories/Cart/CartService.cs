@@ -5,7 +5,7 @@ using AramatBags.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
-    public class CartService : ICart
+public class CartService : ICart
     {
         private readonly ApplicationDBContext _dbcontext;
         public CartService(ApplicationDBContext dbcontext)
@@ -41,15 +41,20 @@ using static System.Net.Mime.MediaTypeNames;
                 await _dbcontext.SaveChangesAsync();
             }
         }
-        public async Task<List<CartItem>> GetAllCartItems()
+        public async Task<List<CartItem>> GetAllCartItems(CartItem cartItem)
         {
             var cartitem = await _dbcontext.CartItems.ToListAsync();
-        return cartitem;
+            return cartitem;
         }
-        public async Task<Cart> GetCartById(int id)
+        public async Task<Cart> GetCartsById(int id)
         {
             var cart = await _dbcontext.Carts.FindAsync(id);
             return cart;
         }
+
+    Task<List<Cart>> ICart.GetAllCartItems()
+    {
+        throw new NotImplementedException();
     }
+}
 

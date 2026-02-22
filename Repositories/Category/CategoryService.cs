@@ -40,12 +40,13 @@ namespace AramatBags.Service
             _dbcontext.Categories.Update(category);
             await _dbcontext.SaveChangesAsync();
         }
-        public async Task<List<Category>> GetAllCategories()
+        public async Task<List<Category>> GetAllCategory()
         {
             var categories = await _dbcontext.Categories.ToListAsync();
 
             return categories;
         }
+
         public async Task<Category> GetCategoryById(int id)
         {
             var product = await _dbcontext.Categories.FindAsync(id);

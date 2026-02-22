@@ -1,11 +1,11 @@
 using AramatBags.Data;
 using AramatBags.Interfaces;
 using AramatBags.Models;
+using AramatBags.Repositories;
 using AramatBags.Service;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.SqlServer.Server;
-using System.Collections.Generic;
+
 namespace AramatBags
 {
     public class Program
@@ -14,52 +14,63 @@ namespace AramatBags
         {
             var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+            // Add services to the container.
+            builder.Services.AddControllersWithViews();
 
             builder.Services.AddDbContext<ApplicationDBContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-            
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
-{
-    //options.SignIn.RequireConfirmedAccount = true;
-    options.Password.RequireNonAlphanumeric = false;
-    options.Password.RequireDigit = true;
-    options.Password.RequireLowercase = false;
-    options.Password.RequireUppercase = false;
-})
-            .AddEntityFrameworkStores<ApplicationDBContext>()
-            .AddDefaultTokenProviders();
-builder.Services.AddScoped<IProduct, ProductService>();
-builder.Services.AddScoped<ICategory, CategoryService>();
+
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+            {
+                options.Password.RequireNonAlphanumeric = false;
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+            })
+                .AddEntityFrameworkStores<ApplicationDBContext>()
+                .AddDefaultTokenProviders();
+
+            // Configure cookie to use YOUR User controller for login
+            builder.Services.ConfigureApplicationCookie(options =>
+            {
+                options.LoginPath = "/User/Login";
+                options.LogoutPath = "/User/Logout";
+                options.AccessDeniedPath = "/Home/AccessDenied";
+            });
+
+            builder.Services.AddScoped<IProduct, ProductService>();
+            builder.Services.AddScoped<ICategory, CategoryService>();
+            builder.Services.AddScoped<ICart, CartService>();
 
             var app = builder.Build();
-app.Run();
-            // Configure the HTTP request pipeline.
+
             if (!app.Environment.IsDevelopment())
-{
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
-}
+            {
+                app.UseExceptionHandler("/Home/Error");
+                app.UseHsts();
+            }
 
-app.UseHttpsRedirection();
-app.UseRouting();
+            app.UseHttpsRedirection();
+            app.UseRouting();
 
-app.UseAuthorization();
+            // Important: Authentication before Authorization
+            app.UseAuthentication();
+            app.UseAuthorization();
 
-app.MapStaticAssets();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
-    .WithStaticAssets();
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Admin}/{action=Index}/{id?}")
+            app.MapStaticAssets();
+            app.MapControllerRoute(
+                name: "admin",
+                pattern: "admin/{action=Index}/{id?}",
+                defaults: new { area = "Admin", controller = "DashBoard" });
+            app.MapControllerRoute(
+                name: "areas",
+                pattern: "{area:exists}/{controller=DashBoard}/{action=Index}/{id?}");
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}")
                 .WithStaticAssets();
 
             app.Run();
-            }
+        }
     }
 }

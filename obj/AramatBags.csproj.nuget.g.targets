@@ -6,5 +6,6 @@
     <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.common\10.0.102\buildTransitive\Microsoft.SourceLink.Common.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.common\10.0.102\buildTransitive\Microsoft.SourceLink.Common.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.build.tasks.git\10.0.102\buildTransitive\Microsoft.Build.Tasks.Git.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.build.tasks.git\10.0.102\buildTransitive\Microsoft.Build.Tasks.Git.targets')" />
     <Import Project="$(NuGetPackageRoot)microsoft.sourcelink.github\10.0.102\build\Microsoft.SourceLink.GitHub.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.sourcelink.github\10.0.102\build\Microsoft.SourceLink.GitHub.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\10.0.3\buildTransitive\Microsoft.AspNetCore.Identity.UI.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.identity.ui\10.0.3\buildTransitive\Microsoft.AspNetCore.Identity.UI.targets')" />
   </ImportGroup>
 </Project>
