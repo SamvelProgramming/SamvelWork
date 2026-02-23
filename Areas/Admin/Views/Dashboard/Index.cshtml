@@ -3,75 +3,61 @@
     ViewData["Title"] = "Dashboard";
 }
 
-<!-- Stats Cards -->
 <div class="row">
+    <!-- Stats Cards -->
     <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card stats-card primary h-100 py-2">
+        <div class="card stats-card primary">
             <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                            Total Users
-                        </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.TotalUsers</div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-xs font-weight-bold text-uppercase">Total Users</div>
+                        <div class="h5 font-weight-bold">@ViewBag.TotalUsers</div>
                     </div>
-                    <div class="col-auto">
-                        <i class="fas fa-users fa-2x text-gray-300"></i>
-                    </div>
+                    <i class="fas fa-users fa-2x text-icon"></i>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card stats-card success h-100 py-2">
+        <div class="card stats-card success">
             <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                            Total Products
-                        </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.TotalProducts</div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-xs font-weight-bold text-uppercase">Total Products</div>
+                        <div class="h5 font-weight-bold">@ViewBag.TotalProducts</div>
                     </div>
-                    <div class="col-auto">
-                        <i class="fas fa-box fa-2x text-gray-300"></i>
-                    </div>
+                    <i class="fas fa-box fa-2x text-icon"></i>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card stats-card info h-100 py-2">
+        <div class="card stats-card info">
             <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-info text-uppercase mb-1">
-                            Total Orders
-                        </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">@ViewBag.TotalOrders</div>
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-xs font-weight-bold text-uppercase">Total Orders</div>
+                        <div class="h5 font-weight-bold">@ViewBag.TotalOrders</div>
                     </div>
-                    <div class="col-auto">
-                        <i class="fas fa-shopping-cart fa-2x text-gray-300"></i>
-                    </div>
+                    <i class="fas fa-shopping-cart fa-2x text-icon"></i>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="col-xl-3 col-md-6 mb-4">
-        <div class="card stats-card warning h-100 py-2">
+        <div class="card stats-card warning">
             <div class="card-body">
-                <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                            Revenue
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-xs font-weight-bold text-uppercase">Revenue</div>
+                        <div class="h5 font-weight-bold">
+                            @(ViewBag.TotalRevenue?.ToString("N0")) ֏
                         </div>
-                        <div class="h5 mb-0 font-weight-bold text-gray-800">$12,345</div>
                     </div>
-                    <div class="col-auto">
-                        <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
-                    </div>
+                    <i class="fas fa-dollar-sign fa-2x text-icon"></i>
                 </div>
             </div>
         </div>
@@ -82,27 +68,19 @@
 <div class="row mb-4">
     <div class="col-xl-8 col-lg-7">
         <div class="card shadow mb-4">
-            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Monthly Sales Overview</h6>
-            </div>
+            <div class="card-header"><h6>Monthly Sales Overview</h6></div>
             <div class="card-body">
-                <div class="chart-area">
-                    <canvas id="salesChart"></canvas>
-                </div>
+                <canvas id="salesChart"></canvas>
             </div>
         </div>
     </div>
 
     <div class="col-xl-4 col-lg-5">
         <div class="card shadow mb-4">
-            <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Top Categories</h6>
-            </div>
+            <div class="card-header"><h6>Top Categories</h6></div>
             <div class="card-body">
-                <div class="chart-pie pt-4">
-                    <canvas id="categoryChart"></canvas>
-                </div>
-                <div class="mt-4 text-center small">
+                <canvas id="categoryChart"></canvas>
+                <div class="mt-3 text-center small">
                     <span class="mr-2"><i class="fas fa-circle text-primary"></i> Bags</span>
                     <span class="mr-2"><i class="fas fa-circle text-success"></i> Accessories</span>
                     <span class="mr-2"><i class="fas fa-circle text-info"></i> Wallets</span>
@@ -112,91 +90,101 @@
     </div>
 </div>
 
-<!-- Recent Orders Table -->
-<div class="card shadow mb-4">
-    <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Recent Orders</h6>
+<!-- Quick Actions and System Overview -->
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-header"><h6>Quick Actions</h6></div>
+            <div class="card-body d-flex gap-2 flex-wrap">
+                <a asp-area="Admin" asp-controller="Product" asp-action="Create" class="btn btn-primary"><i class="fas fa-plus"></i> Add Product</a>
+                <a asp-area="Admin" asp-controller="Category" asp-action="Create" class="btn btn-success"><i class="fas fa-tags"></i> Add Category</a>
+                <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="btn btn-info"><i class="fas fa-list"></i> View Orders</a>
+            </div>
+        </div>
     </div>
-    <div class="card-body">
-        <div class="table-responsive">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th>Order ID</th>
-                        <th>Customer</th>
-                        <th>Date</th>
-                        <th>Total</th>
-                        <th>Status</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @if (ViewBag.RecentOrders != null)
-                    {
-                        foreach (var order in ViewBag.RecentOrders)
-                        {
-                            <tr>
-                                <td>#@order.Id</td>
-                                <td>@order.User?.UserName</td>
-                                <td>@order.OrderDate.ToString("MMM dd, yyyy")</td>
-                                <td>$@order.TotalAmount</td>
-                                <td>
-                                    <span class="badge @(order.Status == "Delivered" ? "badge-success" :
-                                                                                                 order.Status == "Pending" ? "badge-warning" :
-                                                                                                 order.Status == "Cancelled" ? "badge-danger" : "badge-info")">
-                                        @order.Status
-                                    </span>
-                                </td>
-                                <td>
-                                    <a href="#" class="btn btn-sm btn-primary btn-circle">
-                                        <i class="fas fa-eye"></i>
-                                    </a>
-                                    <a href="#" class="btn btn-sm btn-info btn-circle">
-                                        <i class="fas fa-edit"></i>
-                                    </a>
-                                </td>
-                            </tr>
-                        }
-                    }
-                </tbody>
-            </table>
+
+    <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-header"><h6>System Overview</h6></div>
+            <div class="card-body">
+                <p><strong>Active Users:</strong> @ViewBag.ActiveUsers</p>
+                <p><strong>Pending Orders:</strong> @ViewBag.PendingOrders</p>
+                <p><strong>Low Stock Products:</strong> @ViewBag.LowStock</p>
+            </div>
         </div>
     </div>
 </div>
 
+<!-- Recent Orders Table -->
+<div class="card shadow mb-4">
+    <div class="card-header"><h6>Recent Orders</h6></div>
+    <div class="card-body table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Customer</th>
+                    <th>Date</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (ViewBag.RecentOrders != null)
+                {
+                    foreach (var order in ViewBag.RecentOrders)
+                    {
+                        <tr>
+                            <td>#@order.Id</td>
+                            <td>@order.User?.UserName</td>
+                            <td>@order.OrderDate.ToString("MMM dd, yyyy")</td>
+                            <td>@order.TotalAmount.ToString("N0") ֏</td>
+                            <td>
+                                <span class="badge @(order.Status == "Delivered" ? "badge-success" :
+                                                                                          order.Status == "Pending" ? "badge-warning" :
+                                                                                          order.Status == "Cancelled" ? "badge-danger" : "badge-info")">
+                                    @order.Status
+                                </span>
+                            </td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-primary btn-circle"><i class="fas fa-eye"></i></a>
+                                <a href="#" class="btn btn-sm btn-info btn-circle"><i class="fas fa-edit"></i></a>
+                            </td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
 @section Scripts {
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         // Sales Chart
-        var ctx = document.getElementById('salesChart').getContext('2d');
-        var salesChart = new Chart(ctx, {
+        new Chart(document.getElementById('salesChart').getContext('2d'), {
             type: 'line',
             data: {
-                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-                datasets: [{
-                    label: 'Sales',
-                    data: [0, 10000, 15000, 12000, 18000, 22000, 25000, 28000, 30000, 32000, 35000, 40000],
-                    backgroundColor: 'rgba(78, 115, 223, 0.05)',
-                    borderColor: 'rgba(78, 115, 223, 1)',
-                    pointRadius: 3,
-                    pointBackgroundColor: 'rgba(78, 115, 223, 1)',
-                    pointBorderColor: 'rgba(78, 115, 223, 1)',
-                    pointHoverRadius: 3,
-                    pointHoverBackgroundColor: 'rgba(78, 115, 223, 1)',
-                    pointHoverBorderColor: 'rgba(78, 115, 223, 1)',
-                    pointHitRadius: 10,
-                    pointBorderWidth: 2,
-                    tension: 0.1
+                labels: ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+                datasets:[{
+                    label:'Sales',
+                    data:[0,350000,550000,720000,980000,1150000,1300000,1500000,1700000,1850000,1950000,2000000],
+                    borderColor:'#4e73df',
+                    backgroundColor:'rgba(78,115,223,0.05)',
+                    tension:0.2,
+                    fill:true,
+                    pointRadius:3
                 }]
             },
-            options: {
-                maintainAspectRatio: false,
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        ticks: {
-                            callback: function(value) {
-                                return '$' + value;
+            options:{
+                responsive:true,
+                scales:{
+                    y:{
+                        beginAtZero:true,
+                        max:2000000,
+                        ticks:{
+                            callback:function(value){
+                                return value.toLocaleString() + ' ֏';
                             }
                         }
                     }
@@ -205,27 +193,18 @@
         });
 
         // Category Chart
-        var ctx2 = document.getElementById('categoryChart').getContext('2d');
-        var categoryChart = new Chart(ctx2, {
-            type: 'doughnut',
-            data: {
-                labels: ['Bags', 'Accessories', 'Wallets'],
-                datasets: [{
-                    data: [55, 25, 20],
-                    backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-                    hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
-                    hoverBorderColor: "rgba(234, 236, 244, 1)",
-                }],
+        new Chart(document.getElementById('categoryChart').getContext('2d'), {
+            type:'doughnut',
+            data:{
+                labels:['Bags','Accessories','Wallets'],
+                datasets:[{
+                    data:[55,25,20],
+                    backgroundColor:['#4e73df','#1cc88a','#36b9cc'],
+                    hoverBackgroundColor:['#2e59d9','#17a673','#2c9faf'],
+                    hoverBorderColor:'rgba(234,236,244,1)'
+                }]
             },
-            options: {
-                maintainAspectRatio: false,
-                cutout: '70%',
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                }
-            }
+            options:{cutout:'70%',plugins:{legend:{display:false}}}
         });
     </script>
 }

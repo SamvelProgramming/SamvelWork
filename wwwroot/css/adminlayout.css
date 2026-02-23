@@ -321,5 +321,137 @@ body {
         transform: translateY(0);
     }
 }
+/* adminlayout.css */
 
-</style >
+/* Default light mode */
+:root {
+    --bg-color: #f8f9fc;
+    --text-color: #212529;
+    --sidebar-bg: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+    --sidebar-text: rgba(255,255,255,0.85);
+    --card-bg: #fff;
+    --card-shadow: 0 0.15rem 1.75rem rgba(58,59,69,0.15);
+    --navbar-bg: #fff;
+    --navbar-text: #4e73df;
+    --table-header-bg: #f8f9fc;
+    --table-header-color: #4e73df;
+}
+
+/* Dark mode overrides */
+body.dark-mode {
+    --bg-color: #1e1e2f;
+    --text-color: #f8f9fc;
+    --sidebar-bg: #2c2c3e;
+    --sidebar-text: rgba(255,255,255,0.85);
+    --card-bg: #2c2c3e;
+    --card-shadow: 0 0.15rem 1.75rem rgba(0,0,0,0.5);
+    --navbar-bg: #333;
+    --navbar-text: #f8f9fc;
+    --table-header-bg: #333;
+    --table-header-color: #f8f9fc;
+}
+
+/* Apply variables */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#sidebar {
+    background: var(--sidebar-bg);
+}
+
+    #sidebar ul li a {
+        color: var(--sidebar-text);
+    }
+
+.navbar {
+    background-color: var(--navbar-bg);
+    color: var(--navbar-text);
+}
+
+.card {
+    background-color: var(--card-bg);
+    box-shadow: var(--card-shadow);
+}
+
+.table thead th {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-color);
+}
+/* Default Variables */
+:root {
+    --bg-color: #f8f9fc;
+    --text-color: #212529;
+    --sidebar-bg: linear-gradient(180deg, #4e73df 10%, #224abe 100%);
+    --sidebar-text: rgba(255,255,255,0.85);
+    --card-bg: #fff;
+    --card-shadow: 0 0.15rem 1.75rem rgba(58,59,69,0.15);
+    --navbar-bg: #fff;
+    --navbar-text: #4e73df;
+    --table-header-bg: #f8f9fc;
+    --table-header-color: #4e73df;
+}
+
+/* Dark mode overrides */
+body.dark-mode {
+    --bg-color: #1e1e2f;
+    --text-color: #f8f9fc;
+    --sidebar-bg: #2c2c3e;
+    --sidebar-text: rgba(255,255,255,0.85);
+    --card-bg: #2c2c3e;
+    --card-shadow: 0 0.15rem 1.75rem rgba(0,0,0,0.5);
+    --navbar-bg: #333;
+    --navbar-text: #f8f9fc;
+    --table-header-bg: #333;
+    --table-header-color: #f8f9fc;
+}
+
+/* Apply variables */
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+#sidebar {
+    background: var(--sidebar-bg);
+}
+
+    #sidebar ul li a {
+        color: var(--sidebar-text);
+    }
+
+.navbar {
+    background-color: var(--navbar-bg);
+    color: var(--navbar-text);
+}
+
+.card {
+    background-color: var(--card-bg);
+    box-shadow: var(--card-shadow);
+}
+
+.table thead th {
+    background-color: var(--table-header-bg);
+    color: var(--table-header-color);
+}
+
+/* Card Hover Luxury */
+.card {
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-4px);
+    }
+
+/* Navbar Blur */
+.navbar {
+    backdrop-filter: blur(8px);
+}
+
+/* Stats Cards Font Size */
+.stats-card .h5 {
+    font-size: 1.4rem;
+}

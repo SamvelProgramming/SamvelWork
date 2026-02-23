@@ -1,6 +1,7 @@
 wwwroot\css\adminlayout.css
 wwwroot\css\ajax-loader.gif
 wwwroot\css\normalize.css
+wwwroot\css\products.css
 wwwroot\css\style.css
 wwwroot\css\swiper-bundle.min.css
 wwwroot\css\vendor.css
@@ -158,3 +159,4 @@ C:\Users\gevor\OneDrive\Desktop\SamvelWork\wwwroot\js\script.min.js
 C:\Users\gevor\OneDrive\Desktop\SamvelWork\wwwroot\js\SmoothScroll.js
 C:\Users\gevor\OneDrive\Desktop\SamvelWork\wwwroot\Images\image.svg
 C:\Users\gevor\OneDrive\Desktop\SamvelWork\wwwroot\css\adminlayout.css
+C:\Users\gevor\OneDrive\Desktop\SamvelWork\wwwroot\css\products.css

@@ -1,8 +1,10 @@
 ﻿using AramatBags.Interfaces;
 using AramatBags.Models;
 using Microsoft.AspNetCore.Mvc;
+
 namespace AramatBags.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class ProductController : Controller
     {
         private readonly IProduct _product;
@@ -12,15 +14,19 @@ namespace AramatBags.Areas.Admin.Controllers
             _product = product;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            var products = _product.GetAllProducts();
+            var products = await _product.GetAllProducts();
             return View(products);
         }
 
-        public IActionResult GetById(int id)
+        public async Task<IActionResult> GetById(int id)
         {
-            var product = _product.GetProductById(id);
+            var product = await _product.GetProductById(id);
+
+            if (product == null)
+                return NotFound();
+
             return View(product);
         }
 
@@ -30,29 +36,39 @@ namespace AramatBags.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(Product product)
+        public async Task<IActionResult> Add(Product product)
         {
-            _product.AddProduct(product);
-            return RedirectToAction("Index");
+            if (!ModelState.IsValid)
+                return View(product);
+
+            await _product.AddProduct(product);
+            return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult Edit(int id)
+        public async Task<IActionResult> Edit(int id)
         {
-            var product = _product.GetProductById(id);
+            var product = await _product.GetProductById(id);
+
+            if (product == null)
+                return NotFound();
+
             return View(product);
         }
 
         [HttpPost]
-        public IActionResult Edit(Product product)
+        public async Task<IActionResult> Edit(Product product)
         {
-            _product.EditProduct(product);
-            return RedirectToAction("Index");
+            if (!ModelState.IsValid)
+                return View(product);
+
+            await _product.EditProduct(product);
+            return RedirectToAction(nameof(Index));
         }
 
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            _product.DeleteProduct(id);
-            return RedirectToAction("Index");
+            await _product.DeleteProduct(id);
+            return RedirectToAction(nameof(Index));
         }
     }
 }

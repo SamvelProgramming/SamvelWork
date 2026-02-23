@@ -1,14 +1,18 @@
-﻿<!DOCTYPE html>
+﻿@using AramatBags
+@using AramatBags.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Admin Dashboard</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link href="~/css/adminlayout.css" rel="stylesheet" />
 </head>
-<body>
+<body class="dark-mode">
     <div class="wrapper">
         <!-- Sidebar -->
         <nav id="sidebar">
@@ -16,40 +20,39 @@
                 <h3>AramatBags</h3>
                 <p>Admin Panel</p>
             </div>
-
             <ul class="components">
                 <li class="active">
-                    <a href="@Url.Action("Index", "DashBoard", new { area = "Admin" })">
+                    <a asp-area="Admin" asp-controller="DashBoard" asp-action="Index">
                         <i class="fas fa-tachometer-alt"></i> Dashboard
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a asp-area="Admin" asp-controller="Product" asp-action="Index">
                         <i class="fas fa-box"></i> Products
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a asp-area="Admin" asp-controller="Order" asp-action="Index">
                         <i class="fas fa-shopping-cart"></i> Orders
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a asp-area="Admin" asp-controller="User" asp-action="Index">
                         <i class="fas fa-users"></i> Users
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a asp-area="Admin" asp-controller="Category" asp-action="Index">
                         <i class="fas fa-tags"></i> Categories
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a asp-area="Admin" asp-controller="Report" asp-action="Index">
                         <i class="fas fa-chart-bar"></i> Reports
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a asp-area="Admin" asp-controller="Settings" asp-action="Index">
                         <i class="fas fa-cog"></i> Settings
                     </a>
                 </li>
@@ -61,30 +64,28 @@
             <!-- Navbar -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
-                    <button type="button" id="sidebarCollapse" class="btn">
+                    <button type="button" id="sidebarCollapse" class="btn btn-toggle">
                         <i class="fas fa-bars"></i>
                     </button>
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <button id="darkModeToggle" class="btn btn-outline-light ml-2">
+                        <i class="fas fa-moon"></i>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown">
                                     <div class="user-info">
-                                        <img src="https://ui-avatars.com/api/?name=Admin&background=4e73df&color=fff&size=40" alt="User">
+                                        <img src="https://ui-avatars.com/api/?name=Admin&background=333&color=fff&size=40" alt="User">
                                         <span>Admin User</span>
                                     </div>
                                 </a>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-                                    <a class="dropdown-item" href="#">
-                                        <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i> Profile
-                                    </a>
-                                    <a class="dropdown-item" href="#">
-                                        <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i> Settings
-                                    </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#"><i class="fas fa-user"></i> Profile</a>
+                                    <a class="dropdown-item" href="#"><i class="fas fa-cogs"></i> Settings</a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="@Url.Action("Logout", "DashBoard", new { area = "Admin" })">
-                                        <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i> Logout
-                                    </a>
+                                    <a class="dropdown-item" href="@Url.Action("Logout", "DashBoard", new { area = "Admin" })"><i class="fas fa-sign-out-alt"></i> Logout</a>
                                 </div>
                             </li>
                         </ul>
@@ -99,14 +100,37 @@
         </div>
     </div>
 
+    <!-- JS Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script>
         $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {
                 $('#sidebar, #content').toggleClass('active');
             });
+
+            const body = $('body');
+            const toggleIcon = $('#darkModeToggle i');
+
+            $('#darkModeToggle').on('click', function () {
+                body.toggleClass('dark-mode');
+
+                if (body.hasClass('dark-mode')) {
+                    toggleIcon.removeClass('fa-moon').addClass('fa-sun');
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    toggleIcon.removeClass('fa-sun').addClass('fa-moon');
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+
+            // Load saved theme
+            if (localStorage.getItem('theme') === 'dark') {
+                body.addClass('dark-mode');
+                toggleIcon.removeClass('fa-moon').addClass('fa-sun');
+            }
         });
     </script>
 

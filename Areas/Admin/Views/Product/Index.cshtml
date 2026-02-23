@@ -1,28 +1,51 @@
-﻿@model IEnumerable<AramatBags.Models.Product>
-
-<h2>Products</h2>
-
-<a asp-action="Add">Add</a>
-
-<table border="1">
-    <tr>
-        <th>Id</th>
-        <th>Name</th>
-        <th>Description</th>
-        <th>Actions</th>
-    </tr>
-
-@foreach (var item in Model)
-{
-    <tr>
-        <td>@item.Id</td>
-        <td>@item.ProductName</td>
-        <td>@item.Description</td>
-        <td>
-            <a asp-action="GetById" asp-route-id="@item.Id">View</a>
-            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-        </td>
-    </tr>
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<AramatBags.Models.Product>
+@{
+    ViewData["Title"] = "Products";
 }
-</table>
+<link href="~/css/products.css" rel="stylesheet" />
+<div class="product-container">
+    <div class="product-header">
+        <h2>Products</h2>
+        <a asp-action="Add" class="btn-primary-custom">
+            <i class="fas fa-plus"></i> Add Product
+        </a>
+    </div>
+
+    <table class="product-table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.ProductName</td>
+                    <td>$@item.Price</td>
+                    <td>@item.ProductCount</td>
+                    <td>@item.Description</td>
+                    <td>@item.ProductCategoryId</td>
+                    <td>@item.Image</td>
+                    <td class="text-center">
+                        <a asp-action="GetById" asp-route-id="@item.Id" class="btn-view">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                        <a asp-action="Edit" asp-route-id="@item.Id" class="btn-edit">
+                            <i class="fas fa-edit"></i>
+                        </a>
+                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn-delete">
+                            <i class="fas fa-trash"></i>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -755,4 +755,5 @@ C:\Users\gevor\OneDrive\Desktop\SamvelWork\obj\Debug\net10.0\compressed\a3ygkwa5
 C:\Users\gevor\OneDrive\Desktop\SamvelWork\obj\Debug\net10.0\compressed\nezrqnk58p-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\gevor\OneDrive\Desktop\SamvelWork\obj\Debug\net10.0\compressed\v0zgfp0y55-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\gevor\OneDrive\Desktop\SamvelWork\obj\Debug\net10.0\compressed\yfc7ypekbg-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\gevor\OneDrive\Desktop\SamvelWork\obj\Debug\net10.0\compressed\ri3e5itson-{0}-zh8f1j8756-zh8f1j8756.gz
+C:\Users\gevor\OneDrive\Desktop\SamvelWork\obj\Debug\net10.0\compressed\ri3e5itson-{0}-4kce20lvbt-4kce20lvbt.gz
+C:\Users\gevor\OneDrive\Desktop\SamvelWork\obj\Debug\net10.0\compressed\3h1xtqvjtx-{0}-24q6sgyz8z-24q6sgyz8z.gz

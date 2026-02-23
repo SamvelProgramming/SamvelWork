@@ -1,9 +1,23 @@
 ﻿@model AramatBags.Models.Product
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
-<h2>Product Details</h2>
+@{
+    ViewData["Title"] = "Product Details";
+}
+<link href="~/css/products.css" rel="stylesheet" />
+<div class="details-container">
+    <h2>Product Details</h2>
 
-<p>@Model.Id</p>
-<p>@Model.ProductName</p>
-<p>@Model.Description</p>
-
-<a asp-action="Index">Back</a>
+    <div class="details-card">
+        <p><strong>Name:</strong> @Model.ProductName</p>
+        <p><strong>Description:</strong> @Model.Description</p>
+        <p><strong>Price:</strong> ֏@Model.Price</p>
+        <p><strong>Category:</strong> @Model.Image</p>
+        <p><strong>ProductCount</strong>@Model.ProductCount</p>
+        <p><strong>ProductCategoryId</strong>@Model.ProductCategoryId</p>
+    </div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn-edit">
+        <i class="fas fa-edit"></i> Edit
+    </a>
+    <a asp-action="Index" class="btn-secondary-custom">Back</a>
+</div>

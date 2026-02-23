@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AramatBags")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5607362c868fd3709397ee4be0eefcb49a15d2e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7fa0277b084254d08d1a2f4bad87491c9a193d4")]
 [assembly: System.Reflection.AssemblyProductAttribute("AramatBags")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AramatBags")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

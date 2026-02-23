@@ -1,13 +1,21 @@
 ﻿@model AramatBags.Models.Product
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Delete Product";
+}
+<link href="~/css/products.css" rel="stylesheet" />
+<div class="delete-container">
+    <h2>Delete Product</h2>
 
-<h2>Delete Product</h2>
+    <div class="delete-warning">
+        Are you sure you want to delete <strong>@Model.ProductName</strong>?
+    </div>
 
-<p>@Model.ProductName</p>
-<p>@Model.Description</p>
-
-<form asp-action="Delete" method="post">
-    <input type="hidden" asp-for="Id" />
-    <button type="submit">Delete</button>
-</form>
-
-<a asp-action="Index">Back</a>
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn-delete">
+            <i class="fas fa-trash"></i> Yes, Delete
+        </button>
+        <a asp-action="Index" class="btn-secondary-custom">Cancel</a>
+    </form>
+</div>
