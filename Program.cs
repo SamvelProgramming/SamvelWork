@@ -1,5 +1,4 @@
 using AramatBags.Data;
-using AramatBags.Interfaces;
 using AramatBags.Models;
 using AramatBags.Repositories;
 using AramatBags.Service;
@@ -39,7 +38,7 @@ namespace AramatBags
             });
 
             builder.Services.AddScoped<IProduct, ProductService>();
-            builder.Services.AddScoped<ICategory, CategoryService>();
+            builder.Services.AddScoped<IProductCategory, ProductCategoryService>();
             builder.Services.AddScoped<ICart, CartService>();
 
             var app = builder.Build();

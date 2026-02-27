@@ -1,9 +1,9 @@
-﻿using AramatBags.Interfaces;
-using AramatBags.Models;
+﻿using AramatBags.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using AramatBags.Data;
 using static System.Net.Mime.MediaTypeNames;
 using Microsoft.EntityFrameworkCore;
+using AramatBags.Repositories;
 namespace AramatBags.Service
 {
     public class ProductService : IProduct

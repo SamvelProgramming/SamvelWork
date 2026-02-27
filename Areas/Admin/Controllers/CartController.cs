@@ -1,6 +1,5 @@
-﻿using AramatBags.Interfaces;
+﻿using AramatBags.Repositories;
 using AramatBags.Models;
-using AramatBags.Repositories;
 using Microsoft.AspNetCore.Mvc;
 namespace AramatBags.Areas.Admin.Controllers
 {

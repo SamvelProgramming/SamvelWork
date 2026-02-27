@@ -1,5 +1,4 @@
 ﻿using AramatBags.Data;
-using AramatBags.Interfaces;
 using AramatBags.Models;
 using AramatBags.Repositories;
 using Microsoft.EntityFrameworkCore;

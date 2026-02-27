@@ -1,5 +1,5 @@
 ﻿using AramatBags.Models;
-namespace AramatBags.Interfaces
+namespace AramatBags.Repositories
 {
     public interface IProduct
     {
